@@ -1,0 +1,475 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>docker · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="npm.html" />
+    
+    
+    <link rel="prev" href="gitbook.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="git.html">
+            
+                <a href="git.html">
+            
+                    
+                    git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="github.html">
+            
+                <a href="github.html">
+            
+                    
+                    github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="gitbook.html">
+            
+                <a href="gitbook.html">
+            
+                    
+                    gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4" data-path="docker.html">
+            
+                <a href="docker.html">
+            
+                    
+                    docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="npm.html">
+            
+                <a href="npm.html">
+            
+                    
+                    npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="yarn.html">
+            
+                <a href="yarn.html">
+            
+                    
+                    yarn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="nvm.html">
+            
+                <a href="nvm.html">
+            
+                    
+                    nvm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="brew.html">
+            
+                <a href="brew.html">
+            
+                    
+                    brew
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../算法/">
+            
+                <a href="../算法/">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../面试题/">
+            
+                <a href="../面试题/">
+            
+                    
+                    面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../设计模式/">
+            
+                <a href="../设计模式/">
+            
+                    
+                    设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../ES6/">
+            
+                <a href="../ES6/">
+            
+                    
+                    ES6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >docker</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5BB9;&#x5668;&#x64CD;&#x4F5C;">&#x5BB9;&#x5668;&#x64CD;&#x4F5C;</h1>
+<h2 id="create">create</h2>
+<p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5BB9;&#x5668;&#x4F46;&#x4E0D;&#x542F;&#x52A8;&#x5B83;&#x3002;</p>
+<h3 id="&#x8BED;&#x6CD5;">&#x8BED;&#x6CD5;</h3>
+<p>docker create [OPTIONS] IMAGE [COMMAND] [ARG...]</p>
+<h3 id="options">OPTIONS</h3>
+<ul>
+<li>-a stdin: &#x6307;&#x5B9A;&#x6807;&#x51C6;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x5185;&#x5BB9;&#x7C7B;&#x578B;&#xFF0C;&#x53EF;&#x9009; STDIN/STDOUT/STDERR &#x4E09;&#x9879;&#xFF1B;</li>
+<li>-d: &#x540E;&#x53F0;&#x8FD0;&#x884C;&#x5BB9;&#x5668;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x5BB9;&#x5668;ID&#xFF1B;</li>
+<li>-i: &#x4EE5;&#x4EA4;&#x4E92;&#x6A21;&#x5F0F;&#x8FD0;&#x884C;&#x5BB9;&#x5668;&#xFF0C;&#x901A;&#x5E38;&#x4E0E; -t &#x540C;&#x65F6;&#x4F7F;&#x7528;&#xFF1B;</li>
+<li>-p: &#x7AEF;&#x53E3;&#x6620;&#x5C04;&#xFF0C;&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;&#x4E3B;&#x673A;(&#x5BBF;&#x4E3B;)&#x7AEF;&#x53E3;:&#x5BB9;&#x5668;&#x7AEF;&#x53E3;</li>
+<li>-t: &#x4E3A;&#x5BB9;&#x5668;&#x91CD;&#x65B0;&#x5206;&#x914D;&#x4E00;&#x4E2A;&#x4F2A;&#x8F93;&#x5165;&#x7EC8;&#x7AEF;&#xFF0C;&#x901A;&#x5E38;&#x4E0E; -i &#x540C;&#x65F6;&#x4F7F;&#x7528;&#xFF1B;</li>
+<li>--name=&quot;nginx-lb&quot;: &#x4E3A;&#x5BB9;&#x5668;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x540D;&#x79F0;&#xFF1B;</li>
+<li>--dns 8.8.8.8: &#x6307;&#x5B9A;&#x5BB9;&#x5668;&#x4F7F;&#x7528;&#x7684;DNS&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x9ED8;&#x8BA4;&#x548C;&#x5BBF;&#x4E3B;&#x4E00;&#x81F4;&#xFF1B;</li>
+<li>--dns-search example.com: &#x6307;&#x5B9A;&#x5BB9;&#x5668;DNS&#x641C;&#x7D22;&#x57DF;&#x540D;&#xFF0C;&#x9ED8;&#x8BA4;&#x548C;&#x5BBF;&#x4E3B;&#x4E00;&#x81F4;&#xFF1B;</li>
+<li>-h &quot;mars&quot;: &#x6307;&#x5B9A;&#x5BB9;&#x5668;&#x7684;hostname&#xFF1B;</li>
+<li>-e username=&quot;ritchie&quot;: &#x8BBE;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF1B;</li>
+<li>--env-file=[]: &#x4ECE;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x8BFB;&#x5165;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF1B;</li>
+<li>--cpuset=&quot;0-2&quot; or --cpuset=&quot;0,1,2&quot;: &#x7ED1;&#x5B9A;&#x5BB9;&#x5668;&#x5230;&#x6307;&#x5B9A;CPU&#x8FD0;&#x884C;&#xFF1B;</li>
+<li>-m :&#x8BBE;&#x7F6E;&#x5BB9;&#x5668;&#x4F7F;&#x7528;&#x5185;&#x5B58;&#x6700;&#x5927;&#x503C;&#xFF1B;</li>
+<li>--net=&quot;bridge&quot;: &#x6307;&#x5B9A;&#x5BB9;&#x5668;&#x7684;&#x7F51;&#x7EDC;&#x8FDE;&#x63A5;&#x7C7B;&#x578B;&#xFF0C;&#x652F;&#x6301; bridge/host/none/container: &#x56DB;&#x79CD;&#x7C7B;&#x578B;&#xFF1B;</li>
+<li>--link=[]: &#x6DFB;&#x52A0;&#x94FE;&#x63A5;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x5BB9;&#x5668;&#xFF1B;</li>
+<li>--expose=[]: &#x5F00;&#x653E;&#x4E00;&#x4E2A;&#x7AEF;&#x53E3;&#x6216;&#x4E00;&#x7EC4;&#x7AEF;&#x53E3;&#xFF1B;</li>
+</ul>
+<h3 id="&#x4F8B;&#x5B50;">&#x4F8B;&#x5B50;</h3>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+docker create --name <span class="hljs-built_in">test</span> <span class="hljs-_">-d</span> IMAGES
+</code></pre>
+<h2 id="&#x955C;&#x50CF;&#x64CD;&#x4F5C;">&#x955C;&#x50CF;&#x64CD;&#x4F5C;</h2>
+<h2 id="images">images</h2>
+<p>&#x67E5;&#x770B;&#x672C;&#x5730;&#x955C;&#x50CF;</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+docker images
+</code></pre>
+<h2 id="export">export</h2>
+<p>&#x5C06;&#x955C;&#x50CF;&#x5BFC;&#x51FA;&#x5230;&#x6587;&#x4EF6;&#xFF0C;cbe3cb7799ed&#x4E3A;&#x5BB9;&#x5668;ID</p>
+<pre><code class="lang-bash">docker <span class="hljs-built_in">export</span> cbe3cb7799ed &gt; update.tar
+</code></pre>
+<h2 id="import">import</h2>
+<p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x9759;&#x50CF;&#x4ECE;&#x57FA;&#x4E8E;&#x5BFC;&#x51FA;&#x7684;&#x6587;&#x4EF6;&#xFF0C;update&#x4E3A;&#x65B0;&#x5BFC;&#x5165;&#x7684;&#x955C;&#x50CF;&#x540D;&#x79F0;&#x3002;</p>
+<pre><code class="lang-bash">docker import - update &lt; update.tar
+</code></pre>
+<h2 id="&#x521B;&#x5EFA;&#x81EA;&#x5B9A;&#x4E49;&#x7F51;&#x7EDC;">&#x521B;&#x5EFA;&#x81EA;&#x5B9A;&#x4E49;&#x7F51;&#x7EDC;</h2>
+<pre><code class="lang-bash">docker network create gitlab-net
+</code></pre>
+<h2 id="&#x901A;&#x8FC7;&#x955C;&#x50CF;&#xFF0C;&#x8FD0;&#x884C;&#x5BB9;&#x5668;">&#x901A;&#x8FC7;&#x955C;&#x50CF;&#xFF0C;&#x8FD0;&#x884C;&#x5BB9;&#x5668;</h2>
+<pre><code class="lang-bash">    --hostname gitlab.example.com \
+    -p 80:80 \
+    -p 443:443 \
+    -p 22:22 \
+    --name gitlab \
+    --restart unless-stopped \
+    -v gitlab-config:/etc/gitlab \
+    -v gitlab-logs:/var/<span class="hljs-built_in">log</span>/gitlab \
+    -v gitlab-data:/var/opt/gitlab \
+    --network gitlab-net \
+    twang2218/gitlab-ce-zh:11.1.4
+</code></pre>
+<h2 id="&#x8FDB;&#x5165;&#x5BB9;&#x5668;&#x5185;&#x90E8;">&#x8FDB;&#x5165;&#x5BB9;&#x5668;&#x5185;&#x90E8;</h2>
+<pre><code class="lang-bash">docker <span class="hljs-built_in">exec</span> -it gitlab bash
+</code></pre>
+<h2 id="&#x64CD;&#x4F5C;&#x5BB9;&#x5668;">&#x64CD;&#x4F5C;&#x5BB9;&#x5668;</h2>
+<pre><code class="lang-bash">docker stop gitlab
+docker rm gitlab
+docker network rm gitlab-net
+docker volume rm gitlab-config gitlab-datagitlab-logs
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="gitbook.html" class="navigation navigation-prev " aria-label="Previous page: gitbook">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="npm.html" class="navigation navigation-next " aria-label="Next page: npm">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"docker","level":"1.2.4","depth":2,"next":{"title":"npm","level":"1.2.5","depth":2,"path":"工具/npm.md","ref":"工具/npm.md","articles":[]},"previous":{"title":"gitbook","level":"1.2.3","depth":2,"path":"工具/gitbook.md","ref":"工具/gitbook.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"工具/docker.md","mtime":"2019-04-18T12:45:42.425Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-18T12:49:20.171Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
